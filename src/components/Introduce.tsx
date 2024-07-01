@@ -5,7 +5,10 @@ import { motion } from "framer-motion";
 
 export default function Introduce() {
   return (
-    <motion.div>
+    <motion.div
+      animate={{ x: [100, 0] }}
+      transition={{ ease: "easeOut", duration: 2 }}
+    >
       <StyledIntroduce>
         <IntroduceWrapper>
           <PersonImageDiv>

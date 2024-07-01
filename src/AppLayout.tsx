@@ -29,6 +29,7 @@ export default function AppLayout() {
 const StyledAppLayout = styled.div`
   & > main {
     background: #11071f;
+    overflow-x: hidden;
     min-height: 100vh;
   }
 `;

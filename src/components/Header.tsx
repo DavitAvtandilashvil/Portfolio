@@ -32,6 +32,11 @@ const StyledHeader = styled.div`
     line-height: normal;
     letter-spacing: 0.4px;
     text-decoration: none;
+
+    &:hover {
+      color: #7127ba;
+      transition: all 0.3s ease;
+    }
   }
 `;
 
